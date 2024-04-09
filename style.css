@@ -1,14 +1,17 @@
+body {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #282538;
 }
   
 li {
     float: right;
-
 }
 
 .circle {
@@ -27,14 +30,14 @@ li {
   
 li a {
     display: block;
-    color: black;
+    color: rgb(217, 210, 210);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #ededed;
+    background-color: #47435e;
 }
 
 .flex-container {
@@ -46,19 +49,19 @@ li a:hover {
     display: flex;
     padding: 2%;
     gap: 50px;
-    /* border: 2px solid #959090; */
-    border-radius: 10px;
-    background-color: rgb(208, 228, 255);
+    background-color: rgb(149, 165, 228);
 }
 
 .form-container{
     padding: 20px;
+    background-color: #282538;
 }
 
 .form-container label {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
+    color: rgb(217, 210, 210);
 }
 
 .form-container input {
@@ -66,6 +69,8 @@ li a:hover {
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    background-color: #282538;
+    border: 1px solid rgb(217, 210, 210);
 }
 
 .submit-button {
@@ -81,7 +86,7 @@ li a:hover {
     background-color: #45a049;
 }
 
-.kontak-button {
+.edit-button {
     background-color: #1d4cc2;
     color: white;
     padding: 10px 20px;
@@ -90,19 +95,19 @@ li a:hover {
     cursor: pointer;
 }
 
-.kontak-button:hover {
+.edit-button:hover {
     background-color: #0d267e;
 }
 
 .resume-button {
-    background-color: rgb(208, 228, 255);
+    background-color: rgb(149, 165, 228);
     color: rgb(0, 0, 0);
     padding: 10px 20px;
-    border: 2px solid #1dc267;
+    border: 2px solid #49e18d;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .resume-button:hover {
-    background-color: #1dc267;
+    background-color: #49e18d;
 }

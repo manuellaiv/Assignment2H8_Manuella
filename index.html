@@ -15,13 +15,13 @@
 
         <div class="flex-container-profile">
             <div class="circle">
-                <img src="manuella.png" width="200">
+                <img src="profile.jpg" width="200">
             </div>
             <div>
-                <h1>Manuella Ivana Uli Sianipar</h1>
-                <p>Front End Developer</p> 
+                <h1 id="nama">Manuella Ivana Uli Sianipar</h1>
+                <p id="role">Front End Developer</p> 
                 <div class="flex-container">
-                    <button class="kontak-button">Kontak</button>
+                    <button onclick="onEdit()" class="edit-button">Edit</button>
                     <button class="resume-button">Resume</button>
                 </div>
             </div>
@@ -35,33 +35,32 @@
                         <p><b>Email</b></p>
                     </div>
                     <div>
-                        <p>Full Time</p>
-                        <p>19</p>
-                        <p>Jakarta</p>
-                        <p>2</p>
-                        <p>email@gmail.com</p>
+                        <p id="availability">Full Time</p>
+                        <p id="usia">20</p>
+                        <p id="lokasi">Bandung</p>
+                        <p id="pengalaman">2</p>
+                        <p id="email">manuellaivanauli@gmail.com</p>
                     </div>
                 </div>
             </div>
         </div>
-            <form class="form-container">
+            <form class="form-container" id="form-container">
                 <label for="nama">Nama</label>
-                <input type="text" name="nama"/><br><br>
+                <input type="text" id="nama-form" name="nama"/><br><br>
                 <label for="role">Role</label>
-                <input type="text" name="role" /><br><br>
-                <label for="nama">Availability</label>
-                <input type="text" name="availability" /><br><br>
+                <input type="text" id="role-form" name="role" /><br><br>
+                <label for="availability">Availability</label>
+                <input type="text" id="availability-form" name="availability" /><br><br>
                 <label for="usia">Usia</label>
-                <input type="text" name="usia" /><br><br>
+                <input type="text" id="usia-form" name="usia" /><br><br>
                 <label for="lokasi">Lokasi</label>
-                <input type="text" name="lokasi" /><br><br>
+                <input type="text" id="lokasi-form" name="lokasi" /><br><br>
                 <label for="years-experience">Years Experience</label>
-                <input type="text" name="years-experience" /><br><br>
+                <input type="text" id="pengalaman-form" name="years-experience" /><br><br>
                 <label for="email">Email</label>
-                <input type="text" name="email" /><br>
-                <button type="submit" class="submit-button">Submit</button>
+                <input type="text" id="email-form" name="email" /><br>
+                <button type="submit" id="submit-button" onclick="onSubmit()" class="submit-button">Submit</button>
             </form>
-            
-        
+        <script src="script.js"></script>
     </body>
 </html>
